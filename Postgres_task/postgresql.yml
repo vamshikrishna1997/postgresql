@@ -1,6 +1,6 @@
 ---
 - name: postgresql install and db creation
-  hosts: post
+  hosts: postgresql
   become: true
   roles:
     - postgres_install
